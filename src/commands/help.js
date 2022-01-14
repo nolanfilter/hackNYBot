@@ -20,7 +20,7 @@ let attachments = [
   {
     title: 'Configuring hackNYbot',
     color: '#E3E4E6',
-    text: '`/hackNYbot help` ... you\'re lookin at it! \n',
+    text: '`/hacknybot help` ... you\'re lookin at it! \n',
     mrkdwn_in: ['text']
   }
 ]
