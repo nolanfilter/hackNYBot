@@ -3,6 +3,7 @@
 
 const _ = require('lodash')
 const config = require('../config')
+const trending = require('github-trending')
 
 const msgDefaults = {
   response_type: 'in_channel',
@@ -12,15 +13,9 @@ const msgDefaults = {
 
 let attachments = [
   {
-    title: 'hackNY Bot is here to help',
+    title: 'hackNY Code of Conduct',
     color: '#ff0d00',
-    text: '`/hacknybot code of conduct` returns a link to the Code of Conduct',
-    mrkdwn_in: ['text']
-  },
-  {
-    title: 'Configuring hackNYbot',
-    color: '#E3E4E6',
-    text: '`/hackNYbot help` ... you\'re lookin at it! \n',
+    text: 'https://docs.google.com/document/d/1QrqwO4sRrDdLga3iROksF6Pchn03l3ZcnBD3OGstg88/edit?usp=sharing',
     mrkdwn_in: ['text']
   }
 ]
@@ -36,4 +31,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /help/ig, handler: handler }
+module.exports = { pattern: /repos/ig, handler: handler }
