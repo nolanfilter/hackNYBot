@@ -14,7 +14,7 @@ let attachments = [
   {
     title: 'hackNY Bot is here to help',
     color: '#ff0d00',
-    text: '`/hacknybot code of conduct` returns a link to the Code of Conduct',
+    text: '`/hacknybot conduct` returns a link to the Code of Conduct',
     mrkdwn_in: ['text']
   },
   {
