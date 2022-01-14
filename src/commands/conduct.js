@@ -31,4 +31,4 @@ const handler = (payload, res) => {
   return
 }
 
-module.exports = { pattern: /repos/ig, handler: handler }
+module.exports = { pattern: /conduct/ig, handler: handler }
